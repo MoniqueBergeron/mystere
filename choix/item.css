@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {	
+	background-color: #e4e1e1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family:'Montserrat', sans-serif;
+}
+
+#container {
+    width: 1000px;
+	padding-bottom: 100px;
+    background-color: #ffffff;
+    margin:auto;
+    text-align: center;
+}
+
+header {
+	height: 80px;
+	width: 1000px;
+	padding-top: 86px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+main {
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	background-color: #ffffff;
+}
+
+header h1 {
+	font-style: normal; 
+	font-size: 30px;
+	font-weight: 100px;
+	color: #090909;	
+}
+
+main .colonne {
+	width: 50%;
+	float: left;
+}
+main #col_text {
+padding-top: 300px;
+	padding-bottom: 1px;
+}
+
+main #col_text h1 {
+	font-style: normal; 
+	font-size: 30px;
+	font-weight: 100px;
+}
+
+main #col_text h2 {
+	font-style: normal; 
+	font-size: 25px;
+	font-weight: 100px;
+	color: #934d14;	
+}
+
+main #col_text h3 {
+	font-style: normal; 
+	font-size: 18px;
+	font-weight: 100px;
+}
+nav {
+	float: center;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	papadding-left: 00px;
+	padding-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 80px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: 250px;
+	background-color: #ffffff;
+		
+}
+
+nav a {
+	display: block;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+	text-decoration: none;
+	padding: 5px;
+	padding-top: 5px;
+	background-color:#bfbcbc;
+	border-color: #000000;	
+	border: 1px solid;
+	font-size: 18px;
+	color: #000000;	
+	font-weight: 500;
+	letter-spacing: 4px;
+	}
+
+nav a:hover {
+	display: block;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+	text-decoration: none;
+	padding: 5px;
+	padding-top: 5px;
+	background-color:#7a7777;
+	border-color: #000000;	
+	border: 1px solid;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 500;
+	letter-spacing: 4px;
+}
+
